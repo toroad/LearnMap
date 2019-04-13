@@ -1,0 +1,6 @@
+
+添加默认路由
+route add default gw 10.152.8.1
+
+查看路由
+ip route show
