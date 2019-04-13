@@ -1,0 +1,10 @@
+编译时遇到的问题：
+
+make config T=x86_64-native-linuxapp-gcc
+make
+
+遇到错误：
+/home/z12464/dpdk-stable-17.11.1/lib/librte_eal/linuxapp/eal/eal_memory.c:56:18: error: numa.h: No such file or directory
+
+解决方法：
+yum install numactl-devel*x86_64
